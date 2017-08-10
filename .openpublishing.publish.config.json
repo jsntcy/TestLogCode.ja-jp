@@ -9,7 +9,21 @@
       "build_output_subfolder": "TestLogCode",
       "locale": "ja-jp",
       "monikers": [],
-      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "seconddocset",
+      "build_source_folder": "seconddocset",
+      "build_output_subfolder": "seconddocset",
+      "locale": "ja-jp",
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -20,11 +34,8 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [
-    "ychenu@microsoft.com"
-  ],
+  "notification_subscribers": [],
   "branches_to_filter": [],
-  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
